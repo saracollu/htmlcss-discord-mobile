@@ -6,6 +6,12 @@
 
 body {
     width: 512px;
+    background-color: purple;
+}
+
+.cards {
+    background-color: slateblue;
+    border-radius: 2rem;
 }
 
 
