@@ -10,13 +10,6 @@ body {
     background-color: rgb(23, 34, 179);
 }
 
-#headerapp_DiscordGC {
-    background-color: darkslateblue;
-    color: white;
-    text-align: center;
-    max-width: 512px;
-    height: auto;
-}
 
 #cards {
     background-color: slateblue;
