@@ -9,7 +9,7 @@
 
 body {
     width: 512px;
-    background-color: rgb(23, 34, 179);
+    background-color: #191d7b;
     color: whitesmoke;
 }
  main {
@@ -33,9 +33,35 @@ body {
     font-style: normal;
     }
 
+#intro {
+    margin: 0 auto;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    max-width: 80%;
+}
 
+#button1,#button2 {
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+    min-width: 90%;
+    border: none;
+    cursor: pointer;
+}
+
+#button1 {
+    color: black;
+ background-color: white;
+}
+
+#button2 {
+    color: white;
+    background-color: #5865f2;
+}
 #card_cube, #card_eyes {
-    background-color: slateblue;
+    background-color: #5d64d1;
     border-radius: 2rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
