@@ -65,14 +65,13 @@ body {
     border-radius: 2rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
     padding: 2rem;
     align-items: center;
     text-align: center;
 }
 #header_card_cube, #header_card_eyes {
-    padding-right: 5rem;
     justify-content: center; 
     align-items: center;
     text-align: left;
@@ -81,9 +80,10 @@ body {
     font-style: normal;
     font-size: xx-large;
     line-height: 1;
+    ;
 }
 
-#imgcardcubeimg, #imgcardeyes {
+#card1video, #card2video {
     align-items: center;
     margin-right: 1.5rem;
     border-radius: 2rem;
