@@ -62,6 +62,7 @@ body {
 }
 #card_cube, #card_eyes {
     background-color: #5d64d1;
+    background-image: linear-gradient(to bottom, #5d64d1, #0c103d);
     border-radius: 2rem;
     padding-top: 3rem;
     padding-bottom: 3rem;
