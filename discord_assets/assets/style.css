@@ -3,49 +3,71 @@
     margin: 0;
     padding: 0;
 }
-
+ #banner_img {
+    max-width: 512px;
+ }
 
 body {
     width: 512px;
     background-color: rgb(23, 34, 179);
     color: whitesmoke;
 }
-
+ main {
+    padding: 2rem;
+ }
 #header_main {
-   font-family: "Sigmar", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    justify-content: center;
+    text-align: center;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    }
+
+
+#card_cube, #card_eyes {
+    background-color: slateblue;
+    border-radius: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    align-items: center;
+    text-align: center;
+}
+#header_card_cube, #header_card_eyes {
+    padding-right: 5rem;
+    justify-content: center; 
+    align-items: center;
+    text-align: left;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
 }
 
-#header_card_cube  {
-   font-family: "Sigmar", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+#imgcardcubeimg, #imgcardeyes {
+    align-items: center;
+    margin-right: 1.5rem;
+    border-radius: 2rem;
+    max-width: 400px;
+    
 }
 
-#header_card_eyes  {
-   font-family: "Sigmar", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 p {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 400;
     font-style: normal;
 }
 
 button {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 1000px;
+    font-weight: 500px;
     font-style: normal;
     font-size: large;
-}
-
-#cards {
-    background-color: slateblue;
-    border-radius: 2rem;
 }
 
 
