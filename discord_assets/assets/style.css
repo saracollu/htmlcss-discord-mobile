@@ -11,6 +11,36 @@ body {
     color: whitesmoke;
 }
 
+#header_main {
+   font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header_card_cube  {
+   font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#header_card_eyes  {
+   font-family: "Sigmar", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+p {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+button {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1000px;
+    font-style: normal;
+}
 
 #cards {
     background-color: slateblue;
