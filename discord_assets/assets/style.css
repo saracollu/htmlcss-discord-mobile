@@ -4,7 +4,7 @@
     padding: 0;
 }
  #banner_img {
-    max-width: 512px;
+    max-width: 100%;
  }
 
 body {
@@ -15,13 +15,22 @@ body {
  main {
     padding: 2rem;
  }
+
+ h1 {
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+    margin-bottom: 1rem;
+    line-height: 1;
+ }
+
 #header_main {
     justify-content: center;
     text-align: center;
     font-family: "Sigmar", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
     }
 
 
@@ -45,13 +54,14 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: xx-large;
+    line-height: 1;
 }
 
 #imgcardcubeimg, #imgcardeyes {
     align-items: center;
     margin-right: 1.5rem;
     border-radius: 2rem;
-    max-width: 400px;
+    max-width: 100%;
     
 }
 
