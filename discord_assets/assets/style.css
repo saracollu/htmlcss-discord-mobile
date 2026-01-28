@@ -89,8 +89,8 @@ img, video {
     
 #discord_cube, #eyes {
     position: absolute;
-    top: -2.8rem;
-    left: 3rem;
+    top: -7%;
+    left: 10%;
     max-width: 20%;
 }
 
