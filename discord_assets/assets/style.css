@@ -52,6 +52,11 @@ img, video {
     min-width: 90%;
     border: none;
     cursor: pointer;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:500;
+    font-style: normal;
+    font-size: large;
 }
 
 #button1 {
@@ -88,25 +93,18 @@ img, video {
     padding-top: 1rem;
 }
 
-#card1video, #card2video {
-    align-items: center;
-    margin-right: 1.5rem;
-    border-radius: 2rem;
-}
-
 p {
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    padding: 1rem;
 }
 
-button {
-    font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:500;
-    font-style: normal;
-    font-size: large;
+#card1video, #card2video {
+    align-items: center;
+    margin-right: 1.5rem;
+    border-radius: 2rem;
 }
 
 
