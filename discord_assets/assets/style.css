@@ -74,7 +74,9 @@ img, video {
     color: white;
     background-color: #5865f2;
 }
+
 #card_cube, #card_eyes {
+    position: relative;
     text-align: left;
     background-color: #5d64d1;
     background-image: linear-gradient(to bottom, #5d64d1, #0c103d);
@@ -85,6 +87,14 @@ img, video {
     margin-top: 4rem;
     margin-bottom: 5rem;
 }
+    
+#discord_cube, #eyes {
+    position: absolute;
+    top: -2.8rem;
+    left: 3rem;
+    max-width: 20%;
+}
+
 #header_card_cube, #header_card_eyes {
     font-family: "Sigmar", sans-serif;
     font-weight: 400;
