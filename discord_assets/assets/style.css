@@ -59,7 +59,6 @@ img, video {
     border: none;
     cursor: pointer;
     font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight:500;
     font-style: normal;
     font-size: large;
@@ -107,7 +106,6 @@ img, video {
     margin: 1rem 0;
     text-align: left;
     font-family: "DM Sans", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
