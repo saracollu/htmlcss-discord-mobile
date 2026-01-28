@@ -7,7 +7,7 @@
 body {
     width: 512px;
     background-color: #191d7b;
-    color: whitesmoke;
+    color: white;
      margin: 0 auto;
 }
 
@@ -17,21 +17,21 @@ img, video {
 
  main {
     padding: 0 2rem;
-    text-align: center;
 }
  h1 {
+   
     font-family: "Sigmar", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: xx-large;
+    font-size: 2.25rem;
     margin-bottom: 1rem;
     margin-top: 4rem;
     line-height: 1;
     text-transform: uppercase;
+    text-align: center;
  }
 
 #header_main {
-    justify-content: center;
     text-align: center;
     font-family: "Sigmar", sans-serif;
     font-weight: 400;
@@ -41,15 +41,19 @@ img, video {
 #intro {
     margin: 0 auto;
     text-align: center;
-    max-width: 85%;
+    max-width: 75%;
     font-size: 15px;
     font-family: "DM Sans", sans-serif;
+}
+
+#intropp {  
+    margin-bottom: 0.75rem;
 }
 
 #button1,#button2 {
     border-radius: 1rem;
     padding: 0.75rem 1rem;
-    margin: 1rem;
+    margin: 0.5rem;
     background-color: transparent   ;
     min-width: 90%;
     border: none;
@@ -71,41 +75,36 @@ img, video {
     background-color: #5865f2;
 }
 #card_cube, #card_eyes {
+    text-align: left;
     background-color: #5d64d1;
     background-image: linear-gradient(to bottom, #5d64d1, #0c103d);
     border-radius: 2rem;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin-bottom: 4rem;
+    padding: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     margin-top: 4rem;
-    padding: 2rem;
-    align-items: center;
-    text-align: center;
+    margin-bottom: 5rem;
 }
 #header_card_cube, #header_card_eyes {
-    justify-content: center; 
-    align-items: center;
-    text-align: left;
     font-family: "Sigmar", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: x-large;
     line-height: 1;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
     text-transform: uppercase;
 }
-p {
+#pcube, #peyes {
+    margin: 1rem 0;
+    text-align: left;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    padding: 1rem;
 }
+
 
 #card1video, #card2video {
     align-items: center;
-    margin-right: 1.5rem;
     border-radius: 2rem;
 }
 
