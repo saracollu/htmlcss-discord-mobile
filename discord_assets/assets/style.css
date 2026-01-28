@@ -8,11 +8,11 @@ body {
     width: 512px;
     background-color: #191d7b;
     color: whitesmoke;
+     margin: 0 auto;
 }
 
 img, video {
     max-width: 100%;
-    margin: 0 auto;
 }
 
  main {
